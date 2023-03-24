@@ -11,30 +11,31 @@ export default function Home() {
 
       <main>
         <h1 className={styles.title}>
-          Welcome to <a href="https://www.youtube.com/watch?v=2vM_F0XCYgg">Whopper website!</a>
+          Welcome to <a href="https://www.youtube.com/watch?v=2vM_F0XCYgg">Whopper Website!</a>
         </h1>
         
 
         <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
+         <code></code>
         </p>
 <img className={styles.title} src="https://bk-emea-prd.s3.amazonaws.com/sites/burgerking.no/files/BB_DOUBLEWHOPPERWCHEESE-v1_detail.png"></img>
         <div className={styles.grid}>
-          <a href="https://www.youtube.com/watch?v=9cPxh2DikIA" className={styles.card}>
+          <a href="/video" className={styles.card}>
             <h3>Free whopper roll &rarr;</h3>
             <p>Find in-depth information about Whoppers.</p>
           </a>
 
-          <a href="https://en.wikipedia.org/wiki/Whopper" className={styles.card}>
-            <h3>Learn about whopper &rarr;</h3>
-            <p>Learn about the new faboulous whopper in town!</p>
+          <a href="/wikipedia" className={styles.card}>
+            <h3>The history of the Whopper &rarr;</h3>
+            <p>Learn about the history of the fabolous whopper!</p>
           </a>
           <a
-            href="https://www.burgerking.no/"
+
+            href="/login"
             className={styles.card}
           >
-            <h3>Examples of whopper &rarr;</h3>
-            <p>Discover new types of whoppers here</p>
+            <h3>Credits list &rarr;</h3>
+            <p>People who helped make this Website</p>
           </a>
 
           <a
