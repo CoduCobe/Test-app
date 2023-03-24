@@ -6,7 +6,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
         <h1 className={styles.title}>
           Welcome to <a href="https://www.youtube.com/watch?v=2vM_F0XCYgg">the Whopper roll!</a>

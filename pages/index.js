@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Whopper Website</title>
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <main>
@@ -19,13 +19,16 @@ export default function Home() {
          <code></code>
         </p>
 <img className={styles.title} src="https://bk-emea-prd.s3.amazonaws.com/sites/burgerking.no/files/BB_DOUBLEWHOPPERWCHEESE-v1_detail.png"></img>
+        
         <div className={styles.grid}>
           <a href="/video" className={styles.card}>
             <h3>Free whopper roll &rarr;</h3>
             <p>Find in-depth information about Whoppers.</p>
           </a>
 
-          <a href="/wikipedia" className={styles.card}>
+
+          <a
+           href="/wikipedia" className={styles.card}>
             <h3>The history of the Whopper &rarr;</h3>
             <p>Learn about the history of the fabolous whopper!</p>
           </a>
@@ -39,7 +42,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://twitter.com/TobyWBlack/status/1621317803079864320"
+            href="/Deploy"
             className={styles.card}
           > 
             <h3>Deploy whopper &rarr;</h3>

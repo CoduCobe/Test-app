@@ -40,6 +40,7 @@
 .image { 
   height: 100px; 
   width: 100px;
+
 }
 .grid {
   display: flex;
@@ -72,7 +73,7 @@
   letter-spacing: 1px;
   line-height: 30px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  border-radius: 30px;
+  border-radius: 10px;
 
 }
 .card3 {
@@ -83,14 +84,30 @@
   letter-spacing: 1px;
   line-height: 30px;
   font-family: 'Times New Roman', Times, serif;
-  border-radius: 30px;
+  border-radius: 10px;
+}
+
+.card4 {
+  background-color: rgb(71, 71, 71);
+  border: 10px solid rgb(119, 119, 119);
+  max-width: 1000px;
+  max-height: 1000px;
+  letter-spacing: 1px;
+  line-height: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 10px;
+
+
 }
 .return {
+  background-color: white;
   font-family: 'Times New Roman', Times, serif;
-  left:0px;
+  left:10px;
   top: 0px;
   position: fixed;
   max-width: 200px;
+  color: black;
+  padding: 5px;
 
 }
 

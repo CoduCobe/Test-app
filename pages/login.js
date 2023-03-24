@@ -6,37 +6,26 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <main>
         <h1 className={styles.title}>
-          Welcome to the whopper pedia
+          Welcome to the whopper pedi ㅤㅤㅤㅤCREDITSㅤㅤSalah:20%ㅤㅤJakob:17%
         </h1>
         
-        
-      
 
         <p className={styles.description}>
          <code></code>
         </p>
       </main>
 
-      <a href="/" className={styles.card}>
+      <a href="/" className={styles.return}>
             <h3>Back to Start Menu &rarr;</h3>
             <p>Returns any activators of this button to the original Start Menu</p>
           </a>
 
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
-        </a>
-      </footer>
+     
 </div>
   )
 }
